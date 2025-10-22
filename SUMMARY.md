@@ -13,11 +13,10 @@
 * [Quick Start Tutorial](getting-started/quick-start.md)
 
 ## Modeling
-* [Geometry Creation](modeling/geometry.md)
-* [Soil and Material Models](modeling/materials.md)
-* [Boundary Conditions](modeling/boundary-conditions.md)
-* [Loading Conditions](modeling/loading.md)
-* [Mesh Generation](modeling/mesh.md)
+* [Geometry Creation](model-setup/geometry.md)
+* [Project Settings](model-setup/settings.md)
+* [Meshing](model-setup/mesh.md)
+* [Units and Conventions](model-setup/units.md)
 
 ## Materials
 * [Overview of Material Types](materials/overview.md)
