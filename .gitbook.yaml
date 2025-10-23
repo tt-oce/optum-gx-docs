@@ -1,0 +1,11 @@
+spaces:
+  - space: optum-gx
+    root: ./optum-gx
+    summary: ./optum-gx/SUMMARY.md
+    readme: ./optum-gx/README.md
+
+  - space: python
+    root: ./python
+    summary: ./python/SUMMARY.md
+    readme: ./python/README.md
+
