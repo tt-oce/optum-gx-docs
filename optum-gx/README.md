@@ -1,2 +1,2 @@
 OPTUM GX Documentation
-![GX logo](./images/gx.png)
+![GX logo](./images/gx-icon.png)

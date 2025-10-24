@@ -1,7 +1,7 @@
 # Summary
 
 ## Introduction
-* [Overview](README.md)
+* [OPTUM GX](README.md)
 * [About OPTUM GX](introduction/about.md)
 * [System Requirements](introduction/system-requirements.md)
 * [License & Activation](introduction/license.md)
