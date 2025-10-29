@@ -1,24 +1,28 @@
-# Summary
+# Table of contents
 
 ## Introduction
+
 * [OPTUM GX](README.md)
 * [About OPTUM GX](introduction/about.md)
 * [System Requirements](introduction/system-requirements.md)
 * [License & Activation](introduction/license.md)
 
 ## Getting Started
+
 * [Installation Guide](getting-started/installation.md)
 * [User Interface Overview](getting-started/ui-overview.md)
 * [Project Setup](getting-started/project-setup.md)
 * [Quick Start Tutorial](getting-started/quick-start.md)
 
 ## Modeling
-* [Geometry Creation](model-setup/geometry.md)
-* [Project Settings](model-setup/settings.md)
-* [Meshing](model-setup/mesh.md)
-* [Units and Conventions](model-setup/units.md)
+
+* [Geometry Creation](modeling/geometry-creation.md)
+* [Project Settings](modeling/project-settings.md)
+* [Meshing](modeling/meshing.md)
+* [Units and Conventions](modeling/units-and-conventions.md)
 
 ## Materials
+
 * [Overview of Material Types](materials/overview.md)
 * [Notation](materials/notation.md)
 * [Solid Materials](materials/solid.md)
@@ -52,6 +56,7 @@
   * [Rigid Beam](materials/rigid-beam.md)
 
 ## Features
+
 * [Overview of Features](features/overview.md)
 * [Flow Boundaries (Flow BC)](features/flow-bc.md)
   * [Water Table](features/flow-bc/water-table.md)
@@ -87,6 +92,7 @@
 * [Result Points](features/result-points.md)
 
 ## Analysis Types
+
 * [Overview of Analysis Types](analysis/overview.md)
 * [Seepage Analysis](analysis/seepage.md)
 * [Initial Stress Analysis](analysis/initial-stress.md)
@@ -96,12 +102,14 @@
 * [Load–Deformation Analysis](analysis/load-deformation.md)
 
 ## Results & Postprocessing
+
 * [Viewing Results](results/viewing.md)
 * [Interpretation of Outputs](results/interpretation.md)
 * [Exporting Data](results/exporting.md)
 * [Reporting](results/reporting.md)
 
 ## Tutorials & Examples
+
 * [Slope Stability](tutorials/slope-stability.md)
 * [Retaining Wall](tutorials/retaining-wall.md)
 * [Tunnel Simulation](tutorials/tunnel.md)
@@ -109,17 +117,20 @@
 * [Custom Example Projects](tutorials/custom.md)
 
 ## Verifications
+
 * [Numerical Methods](verifications/numerical-methods.md)
 * [Limit Analysis Theory](verifications/limit-analysis.md)
 * [Finite Element Formulation](verifications/fem-formulation.md)
 * [Validation & Verification](verifications/validation.md)
 
 ## Support & Resources
+
 * [Troubleshooting](support/troubleshooting.md)
 * [FAQs](support/faq.md)
 * [Contact & Support Channels](support/contact.md)
 
 ## Appendix
+
 * [Release Notes](appendix/release-notes.md)
 * [Glossary](appendix/glossary.md)
 * [References](appendix/references.md)
