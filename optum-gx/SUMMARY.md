@@ -20,6 +20,7 @@
 
 ## Materials
 * [Overview of Material Types](materials/overview.md)
+* [Notation](materials/notation.md)
 * [Solid Materials](materials/solid.md)
   * [MC Basic](materials/solids/mc-basic.md)
   * [Tresca Basic](materials/solids/tresca-basic.md)
