@@ -84,7 +84,9 @@ $$
 
 The conventional continuum mechanics sign convention (strains negative in contraction) is used throughout. The principal stresses are ordered as:
 
-$$\varepsilon_1\leq \varepsilon_2 \leq\varepsilon_3$$
+$$
+\varepsilon_1\leq \varepsilon_2 \leq\varepsilon_3
+$$
 
 For problems dominated by compression, $$\varepsilon_1$$ will usually be the numerically largest principal strain.
 
@@ -102,7 +104,9 @@ $$
 
 A related quantity, often referred to as just the shear strain, is given by
 
-$$\gamma=\frac{3}{2}\varepsilon_q$$
+$$
+\gamma=\frac{3}{2}\varepsilon_q
+$$
 
 Under triaxial conditions, $$\varepsilon_z=\varepsilon_1$$, $$\varepsilon_x=\varepsilon_y=\varepsilon_3$$, $$\tau_{xy}=\tau_{yz}=\tau_{zx}=0$$, the volumetric and deviatoric strains reduce to:
 
