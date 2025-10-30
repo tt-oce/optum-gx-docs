@@ -20,7 +20,7 @@ $$
 \sigma_1\leq \sigma_2 \leq\sigma_3
 $$
 
-For problems dominated by compression, $\sigma\_1$ will usually be the numerically largest principal stress.\
+For problems dominated by compression, $$\sigma_1$$ will usually be the numerically largest principal stress.\
 The mean stress, noting the sign convention, is given by:
 
 $$
@@ -33,14 +33,14 @@ $$
 \tilde p = p + c/\tan\phi
 $$
 
-where $c$ and $\phi$ are the Mohr-Coulomb cohesion and friction angle respectively.\
+where $$c$$ and $$\phi$$ are the Mohr-Coulomb cohesion and friction angle respectively.\
 The deviatoric stress is given by
 
 $$
 q= \sqrt{\frac{1}{2}(\sigma_x-\sigma_y)^2+\frac{1}{2}(\sigma_y-\sigma_z)^2+\frac{1}{2}(\sigma_z-\sigma_x)^2+3\tau_{xy}^2+3\tau_{yz}^2+3\tau_{zx}^2}
 $$
 
-Under triaxial conditions, $\sigma\_z=\sigma\_1$, $\sigma\_x=\sigma\_y=\sigma\_3$, $\tau\_{xy}=\tau\_{yz}=\tau\_{zx}=0$, the mean and deviatoric stresses reduce to:
+Under triaxial conditions, $$\sigma_z=\sigma_1$$, $$\sigma_x=\sigma_y=\sigma_3$$, $$\tau_{xy}=\tau_{yz}=\tau_{zx}=0$$, the mean and deviatoric stresses reduce to:
 
 $$
 p=-\frac{1}{3}(\sigma_1+2\sigma_3),\quad q= |\sigma_1-\sigma_3|
@@ -52,7 +52,7 @@ $$
 \theta = \arctan\left[\frac{1}{\sqrt 3}\left(\frac{\sigma_2-\sigma_3}{\sigma_1-\sigma_3}-1\right)\right]
 $$
 
-This angle varies between $-30^\circ$ corresponding to triaxial compression and $+30^\circ$ corresponding to triaxial extension.
+This angle varies between $$-30^\circ$$ corresponding to triaxial compression and $$+30^\circ$$ corresponding to triaxial extension.
 
 ## Effective stress
 
@@ -62,68 +62,64 @@ $$
 \boldsymbol{\sigma}' = \boldsymbol{\sigma}+\boldsymbol{m}p_w
 $$
 
-where $m=(1,1,1,0,0,0)^\mathrm{T}$ and $p\_w$ is the fluid pressure. This is made up of a seepage pressure and possibly an excess pore pressure:
+where $$m=(1,1,1,0,0,0)^\mathrm{T}$$ and $$p_w$$ is the fluid pressure. This is made up of a seepage pressure and possibly an excess pore pressure:
 
 $$
 p_w = p_s + p_e
 $$
 
-where $p\_s$ is the seepage pressure (steady-state or transient) and $p\_e$ is the excess pore pressure generated in response to deformation for the relevant analysis types and Drainage settings. It is noted that while stresses follow the standard continuum mechanics sign conventions (negative in compression), the opposite convention is used for fluid pressures.
+where $$p_s$$ is the seepage pressure (steady-state or transient) and $$p_e$$ is the excess pore pressure generated in response to deformation for the relevant analysis types and Drainage settings. It is noted that while stresses follow the standard continuum mechanics sign conventions (negative in compression), the opposite convention is used for fluid pressures.
 
 ## Strain
 
-The strain vector $\boldsymbol{\varepsilon}$ is given by:
+The strain vector $$\boldsymbol{\varepsilon}$$ is given by:
 
-$$$
+$$
 \begin{array}{lcl}
 \boldsymbol{\varepsilon} = (\varepsilon_x,\varepsilon_y,\varepsilon_z,\tau_{xy},\tau_{yz},\tau_{zx})^\mathrm{T}& & \textsf{(3D)}\\
 \boldsymbol{\varepsilon} = (\varepsilon_x,\varepsilon_y,\varepsilon_z,\tau_{xy})^\mathrm{T}& & \textsf{(plane strain)}\\
 \boldsymbol{\varepsilon} = (\varepsilon_x,\varepsilon_y,\varepsilon_\theta,\tau_{xy})^\mathrm{T}& & \textsf{(axisymmetry)}
-\end{array}$$
-
-The conventional continuum mechanics sign convention (strains negative in contraction) is used throughout. The principal
-stresses are ordered as:
-$$$
-
-\varepsilon\_1\leq \varepsilon\_2 \leq\varepsilon\_3
-
+\end{array}
 $$
-For problems dominated by compression, $\varepsilon_1$ will usually be the numerically largest principal strain.
+
+The conventional continuum mechanics sign convention (strains negative in contraction) is used throughout. The principal stresses are ordered as:
+
+<p align="center"><span class="math">\varepsilon_1\leq \varepsilon_2 \leq\varepsilon_3</span></p>
+
+For problems dominated by compression, $$\varepsilon_1$$ will usually be the numerically largest principal strain.
 
 The volumetric strain is given by
-$$
-
-\varepsilon\_v = \varepsilon\_x+\varepsilon\_y+\varepsilon\_z = \varepsilon\_1+\varepsilon\_2+\varepsilon\_3
 
 $$
+\varepsilon_v = \varepsilon_x+\varepsilon_y+\varepsilon_z = \varepsilon_1+\varepsilon_2+\varepsilon_3
+$$
+
 The deviatoric strain is given by
-$$
-
-\varepsilon\_q=\frac{2}{3}\sqrt{\frac{1}{2}(\varepsilon\_x-\varepsilon\_y)^2+\frac{1}{2}(\varepsilon\_y-\varepsilon\_z)^2+\frac{1}{2}(\varepsilon\_z-\varepsilon\_x)^2+\frac{3}{4}\gamma\_{xy}^2+\frac{3}{4}\gamma\_{yz}^2+\frac{3}{4}\gamma\_{zx}^2}
 
 $$
+\varepsilon_q=\frac{2}{3}\sqrt{\frac{1}{2}(\varepsilon_x-\varepsilon_y)^2+\frac{1}{2}(\varepsilon_y-\varepsilon_z)^2+\frac{1}{2}(\varepsilon_z-\varepsilon_x)^2+\frac{3}{4}\gamma_{xy}^2+\frac{3}{4}\gamma_{yz}^2+\frac{3}{4}\gamma_{zx}^2}
+$$
+
 A related quantity, often referred to as just the shear strain, is given by
-$$
 
-\gamma=\frac{3}{2}\varepsilon\_q
+<p align="center"><span class="math">\gamma=\frac{3}{2}\varepsilon_q</span></p>
 
-$$
-Under triaxial conditions, $\varepsilon_z=\varepsilon_1$, $\varepsilon_x=\varepsilon_y=\varepsilon_3$,
-$\tau_{xy}=\tau_{yz}=\tau_{zx}=0$, the volumetric and deviatoric strains reduce to:
-$$
+Under triaxial conditions, $$\varepsilon_z=\varepsilon_1$$, $$\varepsilon_x=\varepsilon_y=\varepsilon_3$$,  $$\tau_{xy}=\tau_{yz}=\tau_{zx}=0$$, the volumetric and deviatoric strains reduce to:
 
-\varepsilon\_v=\varepsilon\_1+2\varepsilon\_3,\quad \varepsilon\_q= \frac{2}{3}|\varepsilon\_1-\varepsilon\_3|
+<p align="center"><span class="math">\varepsilon_v=\varepsilon_1+2\varepsilon_3,\quad \varepsilon_q= \frac{2}{3}|\varepsilon_1-\varepsilon_3|</span></p>
 
-$$
-### Strain types
+#### Strain types
 
 A basic premise of classic plasticity theory is the additive decomposition of the total strain into elastic and inelastic components. In GX, two types of inelastic strain are relevant: plastic strains and creep strains. The total strain is thus:
-$$
 
-\boldsymbol{\varepsilon} = \boldsymbol{\varepsilon}^e + \boldsymbol{\varepsilon}^p + \boldsymbol{\varepsilon}^c
+<p align="center"><span class="math">\boldsymbol{\varepsilon} = \boldsymbol{\varepsilon}^e + \boldsymbol{\varepsilon}^p + \boldsymbol{\varepsilon}^c</span></p>
 
-$$
 where
-$$
 
-\begin{array}{lcl} \boldsymbol{\varepsilon}^e & = & \textsf{elastic strains}\ \boldsymbol{\varepsilon}^p & = & \textsf{plastic strains}\ \boldsymbol{\varepsilon}^c & = & \textsf{creep strains} \end{array}
+$$
+\begin{array}{lcl}
+\boldsymbol{\varepsilon}^e & = & \textsf{elastic strains}\\
+\boldsymbol{\varepsilon}^p & = & \textsf{plastic strains}\\
+\boldsymbol{\varepsilon}^c & = & \textsf{creep strains}
+\end{array}
+$$
