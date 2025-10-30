@@ -4,7 +4,7 @@ In this section, a number of frequently used quantities are defined.
 
 ## Stress
 
-The stress vector $$\boldsymbol{\sigma}$$  is given by:
+The stress vector $$\boldsymbol{\sigma}$$ is given by:
 
 $$
 \begin{array}{lcl}
@@ -84,7 +84,7 @@ $$
 
 The conventional continuum mechanics sign convention (strains negative in contraction) is used throughout. The principal stresses are ordered as:
 
-<p align="center"><span class="math">\varepsilon_1\leq \varepsilon_2 \leq\varepsilon_3</span></p>
+$$\varepsilon_1\leq \varepsilon_2 \leq\varepsilon_3$$
 
 For problems dominated by compression, $$\varepsilon_1$$ will usually be the numerically largest principal strain.
 
@@ -102,17 +102,21 @@ $$
 
 A related quantity, often referred to as just the shear strain, is given by
 
-<p align="center"><span class="math">\gamma=\frac{3}{2}\varepsilon_q</span></p>
+$$\gamma=\frac{3}{2}\varepsilon_q$$
 
-Under triaxial conditions, $$\varepsilon_z=\varepsilon_1$$, $$\varepsilon_x=\varepsilon_y=\varepsilon_3$$,  $$\tau_{xy}=\tau_{yz}=\tau_{zx}=0$$, the volumetric and deviatoric strains reduce to:
+Under triaxial conditions, $$\varepsilon_z=\varepsilon_1$$, $$\varepsilon_x=\varepsilon_y=\varepsilon_3$$, $$\tau_{xy}=\tau_{yz}=\tau_{zx}=0$$, the volumetric and deviatoric strains reduce to:
 
-<p align="center"><span class="math">\varepsilon_v=\varepsilon_1+2\varepsilon_3,\quad \varepsilon_q= \frac{2}{3}|\varepsilon_1-\varepsilon_3|</span></p>
+$$
+\varepsilon_v = \varepsilon_1+2\varepsilon_3,\quad \varepsilon_q= \frac{2}{3}|\varepsilon_1-\varepsilon_3|
+$$
 
-#### Strain types
+### Strain types
 
 A basic premise of classic plasticity theory is the additive decomposition of the total strain into elastic and inelastic components. In GX, two types of inelastic strain are relevant: plastic strains and creep strains. The total strain is thus:
 
-<p align="center"><span class="math">\boldsymbol{\varepsilon} = \boldsymbol{\varepsilon}^e + \boldsymbol{\varepsilon}^p + \boldsymbol{\varepsilon}^c</span></p>
+$$
+\boldsymbol{\varepsilon} = \boldsymbol{\varepsilon}^e + \boldsymbol{\varepsilon}^p + \boldsymbol{\varepsilon}^c
+$$
 
 where
 
@@ -123,3 +127,4 @@ $$
 \boldsymbol{\varepsilon}^c & = & \textsf{creep strains}
 \end{array}
 $$
+
