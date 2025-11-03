@@ -62,7 +62,7 @@ M = \frac{3\sin\phi'}{\sqrt{3}\cos\theta + \sin\theta\sin\phi'}
 $$  
 where $$\phi'$$ is the friction angle and $$\theta$$ is the Lode angle.
 
-![Modified Cam Clay yield surfaces cut off by failure (critical state) line \(q = Mp'\)](../../.gitbook/assets/mcc_yield.png)
+![Modified Cam Clay yield surfaces cut off by failure (critical state) line \(q = Mp'\)](../../.gitbook/assets/MCC_Yield.png)
 
 The yield surface represents an ellipse in $$p'-q$$ space whose size is governed by $$p_c$$. The line $$q = Mp'$$ passes through its apex — the critical state line. In the current implementation, crossing this line is prohibited. The critical state line acts as a Mohr–Coulomb failure line:  
 $$
