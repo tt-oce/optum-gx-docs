@@ -37,7 +37,7 @@ $$
 
 Typical values of hydraulic conductivity for different materials are shown in the following figure.
 
-![Typical values of hydraulic conductivity ](../.gitbook/assets/hydrtable.png)
+![Typical values of hydraulic conductivity ](broken-reference)
 
 ***
 
@@ -121,7 +121,7 @@ Typical values of the parameters $$n$$ and $$\alpha$$ are given in the table bel
 
 _Table:_ Soil properties of 72 samples collected from the literature and the fitted van Genuchten model $$n$$ and $$α$$ (after ?).
 
-![Dependence of  and  on  (top) and  (bottom)](../.gitbook/assets/vgfig3.png)
+![Dependence of  and  on  (top) and  (bottom)](broken-reference)
 
 ***
 
